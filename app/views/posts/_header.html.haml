@@ -1,1 +1,18 @@
 ヘッダーです
+
+.header
+  .header__logo
+    各カテゴリー
+.contents
+  .contents__message
+    ダンス
+  = link_to "https://www.facebook.com/", class: "contents__btn" do
+    漫才
+  = link_to "https://twitter.com/", class: "contents__btn" do
+    小説
+  = link_to "https://www.instagram.com/", class: "contents__btn" do
+    モデル
+
+    .search_box
+      %input.input-text{name: "key", placeholder: "キーワードから探す", type: "search", value: "", class: "search"}/
+      %button{type: "submit", class:'submit'} 
