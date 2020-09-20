@@ -1,18 +1,74 @@
-ヘッダーです
-
-.header
-  .header__logo
-    各カテゴリー
 .contents
-  .contents__message
-    ダンス
-  = link_to "https://www.facebook.com/", class: "contents__btn" do
-    漫才
-  = link_to "https://twitter.com/", class: "contents__btn" do
-    小説
-  = link_to "https://www.instagram.com/", class: "contents__btn" do
-    モデル
 
-    .search_box
-      %input.input-text{name: "key", placeholder: "キーワードから探す", type: "search", value: "", class: "search"}/
-      %button{type: "submit", class:'submit'} 
+
+  .search_box
+    %input.input-text{name: "key", placeholder: "キーワードから探す", type: "search", value: "", class: "search"}/
+    %button{type: "submit", class:'submit'} 
+
+  .genre_menu
+    .genre_menu__top
+      トップ
+    .genre_menu__first
+      ダンス
+    .genre_menu__second
+      漫画
+    .genre_menu__third
+      アイドル
+    .genre_menu__forth
+      大食い
+    .genre_menu__fifth
+      ボディビル
+    .genre_menu__sixth
+      漫才
+    .genre_menu__seventh
+      歌  
+    .genre_menu__add
+      もっと
+
+  .video_view1
+    .video_view1__watch1
+      .video_view1__watch1__content
+      .video_view1__watch1__details
+    .video_view1__watch2 
+      .video_view1__watch2__content
+      .video_view1__watch2__details
+    .video_view1__watch3
+      .video_view1__watch3__content
+      .video_view1__watch3__details
+    .video_view1__watch4
+      .video_view1__watch4__content
+      .video_view1__watch4__details
+
+  .video_view2
+    .video_view1__watch1
+      .video_view1__watch1__content
+      .video_view1__watch1__details
+    .video_view1__watch2 
+      .video_view1__watch2__content
+      .video_view1__watch2__details
+    .video_view1__watch3
+      .video_view1__watch3__content
+      .video_view1__watch3__details
+    .video_view1__watch4
+      .video_view1__watch4__content
+      .video_view1__watch4__details   
+
+  .video_view3
+    .video_view1__watch1
+      .video_view1__watch1__content
+      .video_view1__watch1__details
+    .video_view1__watch2 
+      .video_view1__watch2__content
+      .video_view1__watch2__details
+    .video_view1__watch3
+      .video_view1__watch3__content
+      .video_view1__watch3__details
+    .video_view1__watch4
+      .video_view1__watch4__content
+      .video_view1__watch4__details                                  
+    -# = link_to "https://www.facebook.com/", class: "contents__btn" do
+    -#   漫才
+    -# = link_to "https://twitter.com/", class: "contents__btn" do
+    -#   小説
+    -# = link_to "https://www.instagram.com/", class: "contents__btn" do
+    -#   モデル

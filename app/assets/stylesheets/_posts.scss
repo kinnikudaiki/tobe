@@ -1,11 +1,122 @@
-.header {
+.contents {
+  height: 100%;
+  width: 100%;
+  background-color: #050505;
+}
+
+
+.genre_menu {
   height: 90px;
-  border-bottom:20px solid #ffa500;
+  border-bottom:5px solid #ff4800;
   background-color: #ff8c00;
-  color: #ffffff;
-  &__logo {
-    text-align: center;
-    font-size: 36px;
-    line-height: 90px;
+  color: white;
+  line-height: 90px;
+  text-align: center;
+  display: flex;
+  &__top {
+    background-color: rgb(255, 81, 0);
+    width: 160px;
   }
+  &__first{
+    background-color: rgb(255, 196, 0);
+    width: 160px;
+  }
+  &__second {
+    background-color: rgb(0, 255, 64);
+    width: 160px;
+  }
+  &__third {
+    background-color: rgb(0, 153, 255);
+    width: 160px;
+  }
+  &__forth {
+    background-color: rgb(183, 0, 255);
+    width: 160px;
+  }
+  &__fifth {
+    background-color: rgb(255, 17, 0);
+    width: 160px;
+  }
+  &__sixth {
+    background-color: rgb(255, 174, 0);
+    width: 160px;
+  }
+  &__seventh {
+    background-color: rgb(81, 255, 0);
+    width: 160px;
+  }
+  &__add {
+    background-color: rgb(0, 110, 255);
+    width: 160px;
+  }
+}
+
+.video_view1 {
+  height: 300px;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  &__watch1 {
+    height: 250px;
+    width: 320px;
+    margin-right: 30px;
+    &__content {
+      background-color: white;
+      height: 180px;
+    }
+    &__details {
+      background-color: chartreuse;
+      height: 70px;
+    }
+  }
+  &__watch2 {
+    height: 250px;
+    width: 320px;
+    margin-right: 30px;
+    &__content {
+      background-color: white;
+      height: 180px;
+    }
+    &__details {
+      background-color: chartreuse;
+      height: 70px;
+    }
+  }
+  &__watch3 {
+    height: 250px;
+    width: 320px;
+    margin-right: 30px;
+    &__content {
+      background-color: white;
+      height: 180px;
+    }
+    &__details {
+      background-color: chartreuse;
+      height: 70px;
+    }
+  }
+  &__watch4 {
+    height: 250px;
+    width: 320px;
+    &__content {
+      background-color: white;
+      height: 180px;
+    }
+    &__details {
+      background-color: chartreuse;
+      height: 70px;
+    }
+  }
+}
+.video_view2 {
+  height: 300px;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+}
+.video_view3 {
+  height: 300px;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
 }
