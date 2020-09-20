@@ -7,12 +7,14 @@
 
 .genre_menu {
   height: 90px;
+  width: 100%;
   border-bottom:5px solid #ff4800;
   background-color: #ff8c00;
   color: white;
   line-height: 90px;
   text-align: center;
   display: flex;
+  overflow: scroll;
   &__top {
     background-color: rgb(255, 81, 0);
     width: 160px;
@@ -119,4 +121,40 @@
   width: 100%;
   padding: 20px 40px;
   display: flex;
+}
+
+.post_btn {
+  width: 120px;
+  background: #3CCACE;
+  text-align: center;
+  border-radius: 4%;
+  bottom: 32px;
+  right: 32px;
+  position: fixed;
+  padding: 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: block;
+  a{
+    text-decoration: none;
+  }
+  &:hover {
+    background: rgb(48, 164, 168);
+  }
+  &_text{
+    display: block;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  &_icon{
+    text-decoration: none;
+    height: 54px;
+    width: 54px;
+    background-image: image-url(icon/icon_camera);
+    background-size: cover;
+    margin: 0 auto;
+  }
 }
