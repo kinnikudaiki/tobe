@@ -1,9 +1,10 @@
 .contents
 
-
-  .search_box
-    %input.input-text{name: "key", placeholder: "キーワードから探す", type: "search", value: "", class: "search"}/
-    %button{type: "submit", class:'submit'} 
+  .header__main
+    .search_box
+      %input.input-text{name: "key", placeholder: "キーワードから探す", type: "search", value: "", class: "search"}/
+      %button{type: "submit", class:'submit'} 
+        .submit_icon
 
   .genre_menu
     .genre_menu__top
@@ -71,7 +72,7 @@
 
   .post_btn
     =link_to "/users/sign_in" do
-      .post_btn_text
+      .post_btn__text
         投稿する
       .post_btn_icon                                   
     -# = link_to "https://www.facebook.com/", class: "contents__btn" do

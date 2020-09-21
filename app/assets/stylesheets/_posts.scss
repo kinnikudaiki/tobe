@@ -4,6 +4,40 @@
   background-color: #050505;
 }
 
+.header__main {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .search_box{
+    width: 60%;
+    display: flex;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    .search{
+      width: calc(100% - 26px);
+      height: 36px;
+      padding: 0 0 0 5px;
+    }
+    .submit{
+      width: 36px;
+      border: 0;
+      cursor: pointer;
+      background: #ee150e;
+      padding: 8px;
+      &:hover{
+        opacity :0.8 ;
+      }
+      &_icon{
+        height: 14px;
+        width: 14px;
+        background-image:image-url('icon/icon-search1');
+        background-size: cover;
+      }
+    }
+  }
+}  
+
 
 .genre_menu {
   height: 90px;
@@ -65,10 +99,14 @@
     &__content {
       background-color: white;
       height: 180px;
+      background-image:image-url('video/douga1');
+      background-size: contain;
     }
     &__details {
       background-color: chartreuse;
       height: 70px;
+      background-image:image-url('video/douga1details');
+      background-size: contain;
     }
   }
   &__watch2 {
@@ -123,37 +161,40 @@
   display: flex;
 }
 
-.post_btn {
-  width: 120px;
-  background: #3CCACE;
+.post_btn{
+  width: 180px;
+  height: 180px;
+  background: #dd3213;
   text-align: center;
-  border-radius: 4%;
+  border-radius: 50%;
   bottom: 32px;
   right: 32px;
   position: fixed;
-  padding: 15px;
+  padding: 35px;
   box-sizing: border-box;
   text-decoration: none;
   display: block;
+  &__text {
+    color: black;
+    font-size: 22px;
+  }
   a{
     text-decoration: none;
   }
   &:hover {
-    background: rgb(48, 164, 168);
+    background: rgb(250, 1, 1);
   }
   &_text{
     display: block;
     color: #fff;
-    display: block;
-    font-size: 18px;
     text-decoration: none;
     margin-bottom: 5px;
   }
   &_icon{
     text-decoration: none;
-    height: 54px;
-    width: 54px;
-    background-image: image-url(icon/icon_camera);
+    height: 74px;
+    width: 74px;
+    background-image: image-url(icon/play);
     background-size: cover;
     margin: 0 auto;
   }
