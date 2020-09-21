@@ -18,6 +18,7 @@
       width: calc(100% - 26px);
       height: 36px;
       padding: 0 0 0 5px;
+      margin-left: 120px;
     }
     .submit{
       width: 36px;
@@ -34,6 +35,13 @@
         background-image:image-url('icon/icon-search1');
         background-size: cover;
       }
+    }
+  }
+  .login_menu {
+    .header__right--btn {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
     }
   }
 }  
