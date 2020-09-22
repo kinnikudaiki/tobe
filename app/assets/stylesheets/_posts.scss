@@ -56,7 +56,8 @@
   line-height: 90px;
   text-align: center;
   display: flex;
-  overflow: scroll;
+  // 反応しない
+  // overflow-y: scroll;
   &__top {
     background-color: rgb(255, 81, 0);
     width: 160px;
